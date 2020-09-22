@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_Cloud_unlit_vertexColor
+  m_Shader: {fileID: 4800000, guid: 5f9da8a4a2663eb479c175487d2f421c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DitherNoise:
+        m_Texture: {fileID: 2800000, guid: eb00b4ba341797f46892baf5b3b37a79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dithernoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture0:
+        m_Texture: {fileID: 2800000, guid: eb00b4ba341797f46892baf5b3b37a79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTexture1:
+        m_Texture: {fileID: 2800000, guid: eb00b4ba341797f46892baf5b3b37a79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _3dNoiseSize: -3.86
+    - _3dNoiseSizeA: 0.8
+    - _3dNoiseSizeB: 1.49
+    - _3dNoiseSizeC: 5
+    - _Cutoff: 0.5
+    - _Detailstrength: 0.102
+    - _EdgeLength: 2.9
+    - _Fallof: 1
+    - _Float3: -3.29
+    - _Float4: 0
+    - _Float5: 1
+    - _Metallic: 1
+    - _NoiseStrength: 0.139
+    - _NoiseStrengthA: 0.472
+    - _NoiseStrengthB: 0.182
+    - _NoiseStrengthC: 0.071
+    - _PlayerHole: -1.01
+    - _PlayerRadius: 1.79
+    - _Roughness: 0
+    - _ShadowNoise: 0
+    - _Shininess: 0.1
+    - _Speed: 0.69
+    - _SpeedA: 0.5
+    - _SpeedB: 1
+    - _SpeedC: 10.36
+    - _TessMax: 10.94
+    - _TessMin: 0.7
+    - _TessPhongStrength: 0.241
+    - _TessValue: 21.6
+    - _VertexColorMult: 1.16
+    - _Wrap: -1
+    - __dirty: 0
+    - _blendfadedist: 0.388
+    - _dotPower: 6.98
+    - _fresnel: 0.042
+    - _g: 0.051
+    - _l: 1
+    - _light: 1
+    - _max: 0.336
+    - _maxLen: 0.43
+    - _nmnoise: 0.984
+    - _rad: 3.31
+    - _re: 0.762
+    - _s: 0.12
+    - _textureDetail: 1
+    - _wrap: 1
+    m_Colors:
+    - _Col: {r: 0.4690726, g: 0.7463053, b: 0.7830189, a: 0}
+    - _Color0: {r: 0.509434, g: 0.43494126, b: 0.5047782, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Direction: {r: 1, g: 0, b: 0, a: 0}
+    - _DirectionA: {r: 1.5, g: 0, b: 0, a: 0}
+    - _DirectionB: {r: 1.48, g: -0.86, b: -0.36, a: 0}
+    - _DirectionC: {r: 1, g: 0, b: 0, a: 0}
+    - _FresnelBSP: {r: 0.41, g: 1, b: 3.65, a: 0}
+    - _FresnelColr: {r: 0.047169805, g: 0.046528384, b: 0.025142396, a: 0}
+    - _NoiseScale: {r: 0.53, g: 1, b: 1, a: 0}
+    - _NoiseScaleA: {r: 1, g: 1, b: 1, a: 0}
+    - _NoiseScaleB: {r: 1, g: 1, b: 1, a: 0}
+    - _NoiseScaleC: {r: 1, g: 1, b: 2.02, a: 0}
+    - _PlayerPos: {r: 1.77, g: 6.11, b: -31.65, a: 0}
+    - _RimColor: {r: 0.14150941, g: 0.14150941, b: 0.07542719, a: 0}
+    - _SmoothStep: {r: 0.2, g: 0.83, b: 0, a: 0}
+    - _TextureColor: {r: 0.509434, g: 0.43494126, b: 0.5047782, a: 1}
+    - _Tiling: {r: 0.04, g: 0.04, b: 0, a: 0}
+    - _re: {r: 0, g: 0.08, b: 0, a: 0}
